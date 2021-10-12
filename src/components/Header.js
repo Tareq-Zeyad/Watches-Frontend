@@ -12,9 +12,9 @@ class Header extends React.Component {
 
     return(
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand>My Favorite Fruits</Navbar.Brand>
+        <Navbar.Brand>My Favorite Watches</Navbar.Brand>
         <Link to="/">Home </Link>
-        <Link to="/favFruit"> Fav-Fruits</Link>
+        <Link to="/favWatch"> Fav-Watches</Link>
         {isAuthenticated ? <LogoutButton /> : <LoginButton />}
       </Navbar>
     );
